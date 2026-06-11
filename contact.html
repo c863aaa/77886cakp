@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我</title>
+    <link rel="shortcut icon" href="img/dog.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="img/dog.png" alt="dog" height="40"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">首頁</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">自我介紹</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">作品集</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skills.html">技能</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" href="contact.html">聯絡我</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<hr style="box-shadow: 0px 1px 1px 1px rgb(22, 18, 18);border: none;">
+
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+      
+      <div class="card shadow-sm p-4 border-0 bg-light">
+        <h2 class="text-center mb-4 fw-bold">聯絡我</h2>
+      
+        <form class="needs-validation" novalidate>
+
+          <div class="mb-3">
+            <label for="inputName" class="form-label fw-bold">姓名</label>
+            <input type="text" class="form-control" id="inputName" placeholder="請輸入您的姓名" required>
+            <div class="invalid-feedback">請填寫您的姓名。</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="inputSubject" class="form-label fw-bold">主旨</label>
+            <input type="text" class="form-control" id="inputSubject" placeholder="請輸入聯絡主旨" required>
+            <div class="invalid-feedback">請填寫聯絡主旨。</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="inputEmail" class="form-label fw-bold">電子信箱</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com" required>
+            <div class="invalid-feedback">請輸入正確的電子信箱格式。</div>
+          </div>
+
+          <div class="mb-4">
+            <label for="inputMessage" class="form-label fw-bold">訊息內容</label>
+            <textarea class="form-control" id="inputMessage" rows="5" placeholder="請輸入您想對我說的話..." required></textarea>
+            <div class="invalid-feedback">請輸入訊息內容。</div>
+          </div>
+
+          <div class="d-grid">
+            <button class="btn btn-primary" type="submit">送出訊息</button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+<footer class="bg-light text-dark py-4 mt-5 border-top">
+  <div class="container">
+    <div class="row align-items-center">2026 ooo
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script>
+(() => {
+  'use strict'
+  const forms = document.querySelectorAll('.needs-validation')
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+
+</body>
+</html>
