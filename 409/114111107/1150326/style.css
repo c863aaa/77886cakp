@@ -1,0 +1,36 @@
+h1{
+    color: chocolate;
+    background-color: rgb(119, 238, 169);
+}
+.gq{
+    font-size: 12px;
+    color: rgb(117, 115, 115);
+}
+.section{
+    font-size: 1.3em;
+    line-height: 1.8;
+}
+.keywork{
+    border: 1px double rgb(174, 226, 52);
+    width: 58px;
+    text-align: center;
+    padding: 9px;
+    font-size: 0.8em;
+    color: rgb(117, 231, 231);
+    float: left;
+    margin-right: 18px;
+}
+.plus{
+    float: right;
+    margin-right: 9px;
+}
+.clear{
+    clear: both;
+}
+.extend{
+    border: 1px solid lightblue;
+    padding: 10px;
+    font-size: 1.3em;
+    width: 600px;
+    border-radius: 10px;
+}

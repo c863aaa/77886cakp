@@ -1,0 +1,31 @@
+.carousel-inner img{
+    border-radius: 20px;
+}
+#carouselExampleCaptions{
+    margin-top: 100px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.carousel-inner img {
+    border-radius: 40px;
+}
+
+#carouselExampleCaptions {
+    margin-top: 100px;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+#cd .card{
+    border-radius: 20px;
+}
